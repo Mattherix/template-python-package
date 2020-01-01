@@ -16,4 +16,4 @@ venv.bak/
 docs/_build/
 
 # Pycharm
-.idea
+.idea/

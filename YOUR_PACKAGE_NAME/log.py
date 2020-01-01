@@ -2,7 +2,7 @@
 import logging
 from logging.handlers import RotatingFileHandler
 import os
-from .__debug__ import DEBUG
+from .debug import DEBUG
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 
