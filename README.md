@@ -4,6 +4,7 @@ Overview
 This repository was create to develop a python package.
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Mattherix/template-python-package/pulls)
+[![codecov](https://codecov.io/gh/Mattherix/template-python-package/branch/master/graph/badge.svg)](https://codecov.io/gh/Mattherix/template-python-package)
 
 Added:
 
