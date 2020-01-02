@@ -37,6 +37,7 @@
     For more info please go on <https://github.com/$YOUR_NAME/$YOUR_PACKAGE_NAME>
 
 """
+from .__version__ import *
 from .main import add
 
 # All your function that need to be accessible
