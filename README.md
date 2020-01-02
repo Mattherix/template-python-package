@@ -55,6 +55,7 @@ $project
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/request)
 ![PyPI - License](https://img.shields.io/pypi/l/request)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/request)
+[![codecov](https://codecov.io/gh/$YOUR_NAME/YOUR_PACKAGE_NAME/branch/master/graph/badge.svg?token=7TyKhWhoVI)](https://codecov.io/gh/$YOUR_NAME/YOUR_PACKAGE_NAME)
 
 </div>
 
