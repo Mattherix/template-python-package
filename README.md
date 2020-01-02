@@ -18,7 +18,8 @@ Added:
     * python_package.yml
         * Install dependencies from requiements.txt
         * Check the code with flake8
-        * Run unittest
+        * Run pytest
+        * Publish the coverage result to [codecov.io](codecov.io)
     * python_publish.yml
         * Post your code to pypi when you release it
     * assignee_to_reviewer.yml
@@ -33,9 +34,9 @@ If you want to use this template just:
    1. $project: The name of your project (README.md, HISTORY.md, docs/index.rst, docs/conf.py)
    2. $setup_date: The date of the creation of your project (HISTORY.md)
    3. $YOUR_NAME: Your github username, the one inside your github url (README.md, $YOUR_PACKAGE_NAME/__init__.py, docs/conf.py)
-   4. $YOUR_PACKAGE_NAME: The name of your package/repository (README.md, $YOUR_PACKAGE_NAME/, $YOUR_PACKAGE_NAME/__init__.py)
+   4. $YOUR_PACKAGE_NAME: The name of your package/repository (README.md, codecov.yml, $YOUR_PACKAGE_NAME/, $YOUR_PACKAGE_NAME/__init__.py)
    5. request: Put the name of your package (README.md)
-3. Add PYPI_USERNAME and PYPI_PASSWORD inside github secret (Setting -> Secret)
+3. Add PYPI_USERNAME, PYPI_PASSWORD and CODECOV_TOKEN inside github secret (Setting -> Secret)
 4. Fill the LICENCE
 5. Fill the setup.py
 6. Fill the README.md and remove the part before the ...
