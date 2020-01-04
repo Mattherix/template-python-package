@@ -1,4 +1,3 @@
-"""The test file of main.py"""
 from unittest import main, TestCase
 from .. import add
 
